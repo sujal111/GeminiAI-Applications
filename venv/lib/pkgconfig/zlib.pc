@@ -1,0 +1,13 @@
+prefix=/Users/sujal/Desktop/LLMAP/venv
+exec_prefix=/Users/sujal/Desktop/LLMAP/venv
+libdir=/Users/sujal/Desktop/LLMAP/venv/lib
+sharedlibdir=/Users/sujal/Desktop/LLMAP/venv/lib
+includedir=/Users/sujal/Desktop/LLMAP/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
